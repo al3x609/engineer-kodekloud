@@ -12,3 +12,10 @@ c. The inventory hostname of the host should be the server name as per the wiki,
 
 Note: Validation will try to run the playbook using command ansible-playbook -i inventory playbook.yml so please make sure the playbook works this way without passing any extra arguments.
 
+
+
+>>>> 
+Solution
+create an ansible inventory file, with sudo password. inn= ini format.
+apply with
+ansible-playbook -i inventory playbook
